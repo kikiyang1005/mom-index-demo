@@ -1,0 +1,275 @@
+{
+  "latest": {
+    "date": "2026-01-15",
+    "sectors": {
+      "nasdaq": {
+        "index": 50,
+        "interpretation": "🟡 开始升温 — 演示数据",
+        "details": {
+          "total_posts": 48,
+          "valid_posts": 44,
+          "spam_posts": 4,
+          "newbie_posts": 16,
+          "pure_newbie": 5,
+          "newbie_ratio": 36.4,
+          "avg_newbie_score": 42.0,
+          "avg_sentiment": 55.0,
+          "purity_signal": 31.2,
+          "activity": 55.0,
+          "mom_buy_index": 54,
+          "mom_sell_index": 46,
+          "buy_sell_ratio": 1.2,
+          "buy_count": 54,
+          "sell_count": 46
+        },
+        "top_newbie_posts": [
+          {
+            "title": "示例讨论文本（合成数据，非真实用户内容）",
+            "score": 42,
+            "level": "偏小白",
+            "reasoning": "命中知识求助与短期情绪信号；仅用于演示分析接口。",
+            "sentiment": 0.35,
+            "intent": "buy",
+            "intent_label": "示例意图",
+            "key_signals": [
+              "合成信号",
+              "已脱敏"
+            ]
+          }
+        ]
+      },
+      "gold": {
+        "index": 52,
+        "interpretation": "🟡 开始升温 — 演示数据",
+        "details": {
+          "total_posts": 48,
+          "valid_posts": 44,
+          "spam_posts": 4,
+          "newbie_posts": 16,
+          "pure_newbie": 5,
+          "newbie_ratio": 36.4,
+          "avg_newbie_score": 42.0,
+          "avg_sentiment": 55.0,
+          "purity_signal": 31.2,
+          "activity": 55.0,
+          "mom_buy_index": 55,
+          "mom_sell_index": 45,
+          "buy_sell_ratio": 1.2,
+          "buy_count": 55,
+          "sell_count": 45
+        },
+        "top_newbie_posts": [
+          {
+            "title": "示例讨论文本（合成数据，非真实用户内容）",
+            "score": 42,
+            "level": "偏小白",
+            "reasoning": "命中知识求助与短期情绪信号；仅用于演示分析接口。",
+            "sentiment": 0.35,
+            "intent": "buy",
+            "intent_label": "示例意图",
+            "key_signals": [
+              "合成信号",
+              "已脱敏"
+            ]
+          }
+        ]
+      },
+      "cpo": {
+        "index": 64,
+        "interpretation": "🟠 高度警惕 — 演示数据",
+        "details": {
+          "total_posts": 48,
+          "valid_posts": 44,
+          "spam_posts": 4,
+          "newbie_posts": 16,
+          "pure_newbie": 5,
+          "newbie_ratio": 36.4,
+          "avg_newbie_score": 42.0,
+          "avg_sentiment": 55.0,
+          "purity_signal": 31.2,
+          "activity": 55.0,
+          "mom_buy_index": 62,
+          "mom_sell_index": 38,
+          "buy_sell_ratio": 1.6,
+          "buy_count": 62,
+          "sell_count": 38
+        },
+        "top_newbie_posts": [
+          {
+            "title": "示例讨论文本（合成数据，非真实用户内容）",
+            "score": 42,
+            "level": "偏小白",
+            "reasoning": "命中知识求助与短期情绪信号；仅用于演示分析接口。",
+            "sentiment": 0.35,
+            "intent": "buy",
+            "intent_label": "示例意图",
+            "key_signals": [
+              "合成信号",
+              "已脱敏"
+            ]
+          }
+        ]
+      },
+      "semiconductor": {
+        "index": 59,
+        "interpretation": "🟡 开始升温 — 演示数据",
+        "details": {
+          "total_posts": 48,
+          "valid_posts": 44,
+          "spam_posts": 4,
+          "newbie_posts": 16,
+          "pure_newbie": 5,
+          "newbie_ratio": 36.4,
+          "avg_newbie_score": 42.0,
+          "avg_sentiment": 55.0,
+          "purity_signal": 31.2,
+          "activity": 55.0,
+          "mom_buy_index": 58,
+          "mom_sell_index": 42,
+          "buy_sell_ratio": 1.4,
+          "buy_count": 58,
+          "sell_count": 42
+        },
+        "top_newbie_posts": [
+          {
+            "title": "示例讨论文本（合成数据，非真实用户内容）",
+            "score": 42,
+            "level": "偏小白",
+            "reasoning": "命中知识求助与短期情绪信号；仅用于演示分析接口。",
+            "sentiment": 0.35,
+            "intent": "buy",
+            "intent_label": "示例意图",
+            "key_signals": [
+              "合成信号",
+              "已脱敏"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sector_history": {
+    "nasdaq": [
+      {
+        "date": "2026-01-09",
+        "index": 38
+      },
+      {
+        "date": "2026-01-10",
+        "index": 40
+      },
+      {
+        "date": "2026-01-11",
+        "index": 43
+      },
+      {
+        "date": "2026-01-12",
+        "index": 46
+      },
+      {
+        "date": "2026-01-13",
+        "index": 44
+      },
+      {
+        "date": "2026-01-14",
+        "index": 48
+      },
+      {
+        "date": "2026-01-15",
+        "index": 50
+      }
+    ],
+    "gold": [
+      {
+        "date": "2026-01-09",
+        "index": 45
+      },
+      {
+        "date": "2026-01-10",
+        "index": 47
+      },
+      {
+        "date": "2026-01-11",
+        "index": 46
+      },
+      {
+        "date": "2026-01-12",
+        "index": 49
+      },
+      {
+        "date": "2026-01-13",
+        "index": 51
+      },
+      {
+        "date": "2026-01-14",
+        "index": 50
+      },
+      {
+        "date": "2026-01-15",
+        "index": 52
+      }
+    ],
+    "cpo": [
+      {
+        "date": "2026-01-09",
+        "index": 52
+      },
+      {
+        "date": "2026-01-10",
+        "index": 55
+      },
+      {
+        "date": "2026-01-11",
+        "index": 57
+      },
+      {
+        "date": "2026-01-12",
+        "index": 60
+      },
+      {
+        "date": "2026-01-13",
+        "index": 62
+      },
+      {
+        "date": "2026-01-14",
+        "index": 61
+      },
+      {
+        "date": "2026-01-15",
+        "index": 64
+      }
+    ],
+    "semiconductor": [
+      {
+        "date": "2026-01-09",
+        "index": 48
+      },
+      {
+        "date": "2026-01-10",
+        "index": 50
+      },
+      {
+        "date": "2026-01-11",
+        "index": 53
+      },
+      {
+        "date": "2026-01-12",
+        "index": 55
+      },
+      {
+        "date": "2026-01-13",
+        "index": 58
+      },
+      {
+        "date": "2026-01-14",
+        "index": 60
+      },
+      {
+        "date": "2026-01-15",
+        "index": 59
+      }
+    ]
+  },
+  "record_count": 7,
+  "data_notice": "脱敏合成演示数据，不对应真实用户、账户或生产策略。"
+}
