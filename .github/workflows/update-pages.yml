@@ -1,0 +1,31 @@
+name: 更新宝妈指数
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 12 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: mom-index-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: 计算并打包最新样本
+        run: |
+          mkdir site
+          cp index.html chart.umd.min.js LICENSE site/
+          python3 scripts/update.py site/dashboard_data.json
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
